@@ -1,7 +1,5 @@
 # Ninja Skills - Easy TryHackMe
 
-**IP: 10.10.167.254**
-
 **SSH CREDS:**
 ```
 username: new-user
@@ -29,7 +27,7 @@ X1Uy
 
 In order to this we first create a file **file-list** with every name on a new line. After that we execute the following command:
 
-`for f in $(cat file-list);do find / -name $f 1>locations 2>/dev/null; done`
+`for f in $(cat file-list);do find / -name $f 1>>locations 2>/dev/null; done`
 
 Check the current directory for a file name called **locations**. It will have the absolute paths for those files.
 
@@ -101,6 +99,8 @@ acbbbce6c56feb7e351f866b806427403b7b103d  /etc/ssh/SRSq
 ```
 
 ## Which file contains 230 lines?
+
+**This one has some issue... there is no such file with 230 line numbers... maybe my machines broken (I hope it is)**
 
 Again a simple command:
 
