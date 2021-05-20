@@ -28,6 +28,7 @@ X1Uy
 ## Finding file locations on machine
 
 In order to this we first create a file **file-list** with every name on a new line. After that we execute the following command:
+
 `for f in $(cat file-list);do find / -name $f 1>locations 2>/dev/null; done`
 
 Check the current directory for a file name called **locations**. It will have the absolute paths for those files.
@@ -50,6 +51,7 @@ Check the current directory for a file name called **locations**. It will have t
 ## File info
 
 Using the below code we can figure the file info on all those files at once.
+
 `for f in  $(cat locations); do ls -l $f; done`
 
 **Output**
@@ -70,6 +72,7 @@ Using the below code we can figure the file info on all those files at once.
 ## Finding file with IP address
 
 Now assuming IPv4 is used here, the following command can be used to get the filename:
+
 `for f in  $(cat locations); do grep -lE "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+" $f; done`
 
 **Output**
@@ -79,6 +82,7 @@ Now assuming IPv4 is used here, the following command can be used to get the fil
 ## Which file has the SHA1 hash of 9d54da7584015647ba052173b84d45e8007eba94
 
 All the hashes can be calculated using following command:
+
 `for f in  $(cat locations); do sha1sum $f; done`
 
 **Output**
@@ -99,6 +103,7 @@ acbbbce6c56feb7e351f866b806427403b7b103d  /etc/ssh/SRSq
 ## Which file contains 230 lines?
 
 Again a simple command:
+
 `for f in  $(cat locations); do wc -l $f; done`
 
 **Output**
