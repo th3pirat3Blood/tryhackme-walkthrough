@@ -100,7 +100,7 @@ acbbbce6c56feb7e351f866b806427403b7b103d  /etc/ssh/SRSq
 
 ## Which file contains 230 lines?
 
-**This one has some issue... there is no such file with 230 line numbers... maybe my machines broken (I hope it is)**
+**There is no such file with 230 line numbers... moreover only 11 files out of given 12 are present on the system hence the last file should be that**
 
 Again a simple command:
 
