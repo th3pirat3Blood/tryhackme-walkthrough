@@ -97,7 +97,7 @@ Checking NFS export file
 
 `/opt/conf *`
 
-Mounting NFS to a dir
+Mounting NFS to a dir (just make one)
 
 `sudo mount -t nfs 10.10.153.68:/opt/conf nfs_export_list`
 
@@ -106,8 +106,7 @@ checking each directory for some sort of info..... **redis/redis.conf** has some
 ### Redis
 
 `Redis is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability.`
-
-- Source Wikipedia
+-Source Wikipedia
 
 **Default port - 6379**
 
@@ -121,15 +120,15 @@ AUTH --> used for authenticating with redis
 KEYS --> find all keys matching the given pattern
 ```
 
-1) Command used : `info`
+**Command used :** `info`
 
-`-NOAUTH Authentication required.`
+**Output:** `-NOAUTH Authentication required.`
 
-2) Command used : `auth B65Hx562F@ggAZ@F`
+**Command used :** `auth B65Hx562F@ggAZ@F`
 
-`+OK`
+**Output:**`+OK`
 
-Looks like we are in. Lets see what we can get. A list of supported commands can be found by typing **command** which will return redis commands or use https://redis.io/commands for checking the commands and there usage.
+Looks like we are in. Lets see what we can get. A list of supported commands can be found by typing **command** which will return redis commands or use https://redis.io/commands for checking the commands and their usage.
 
 Lets check for keys now: `keys *`
 
