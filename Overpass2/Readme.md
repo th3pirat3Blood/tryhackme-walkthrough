@@ -103,7 +103,7 @@ where **htc** is the file with hash:salt and **ch** is the output file after cra
 
 ### The attacker defaced the website. What message did they leave as a heading? 
 
-`H4ack3d by CooctusClan`
+`H4ck3d by CooctusClan`
 
 ### Using the information you've found previously, hack your way back in!
 
