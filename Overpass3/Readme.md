@@ -133,7 +133,7 @@ Let's check the /etc/passwd for list of users here. Looks like we got **root**, 
 
 I already have the paradox password when I checked that .xlsx file. Maybe ...just maybe... let's try... Success!
 
-`ls -al` reveals no flag file here. Maybe the file is with **james** user. Hmm can't even look in his directory. `sudo -l`: Nothing here also. Gotta run **linPEAS**
+`ls -al` reveals no flag file here. Maybe the file is with **james** user. Hmm can't even look in his directory. `sudo -l`: Nothing here also. Gotta run [**linPEAS**](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
 
 linPEAS has reported **sudo** and **nfs**. Checking **searchsploit** for sudo exploits for that version - Nothing.
 
@@ -145,7 +145,7 @@ Is it running locally? (RANDOM THOUGHT).
 
 ### Port Forwarding 
 
-*Hells about to be unleashed*
+*Hell is about to be unleashed - I did not knew at that time*
 
 Never really did port forwarding/tunneling. A lot of trial and error. Let's try ssh first.
 
@@ -217,7 +217,7 @@ Any file uploaded will be treated as file uploaded by root user.
 
 Messed with this for about 10 mins when I finally realized the true meaning of those words.
 
-**Upload files as root user on the nfs share**. Now lets check the file perms using james ssh. It uploaded as root and as it had perms 777 I could freely use it. OK let's create a simple c file for getting root.
+**Upload files as root user on the nfs share**. Now lets check the file perms using james ssh. It uploaded as root and as it had perms 777 I could freely use it. OK let's create a simple C program for getting shell as root when executed.
 
 ```
 void main(void){
