@@ -121,7 +121,6 @@ Using password `november16` the one we got from cracking that hash, we got ourse
 
 This is easy... once we get in: `cat /home/james/user.txt`
 
-`thm{d119b4fa8c497ddb0525f7ad200e6567}`
 
 
 ### Root.txt
@@ -130,5 +129,5 @@ Checked using find command for any suid binaries I could exploit it was in vain.
 
 There it is `.suid_bash`. Executing it by giving *-p* we get ourselves root. Lastly checking the `/root/root.txt` file we get ourselves the final flag for the machine.
 
-`thm{d53b2684f169360bb9606c333873144d}`
+
 
