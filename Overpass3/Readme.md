@@ -122,7 +122,7 @@ xterm=256-xtermcolor
 
 `find / -type f 2>/dev/null | grep flag` 
 
-Just cat the file out and voila first flag: `thm{0ae72f7870c3687129f7a824194be09d}`
+Just cat the file out and voila first flag.
 
 
 ## User-flag
@@ -196,7 +196,6 @@ It mounted... I suffered all that for nothing?... well whatever `ls -al`
 
 Finally got user flag.
 
-`thm{3693fc86661faa21f16ac9508a43e1ae}`
 
 Also there is **.ssh** dir having key for james. Copied it. Of-course how would it work as didn't work for paradox. It worked... I don't know anything anymore. (Despair level max)
 
@@ -228,5 +227,4 @@ void main(void){
 
 Compiled the above code and uploaded the binary using nfs share as **root**. Changed the permssions and set suid bit. SSH again into james user and execute the binary to get the root shell. Just cat the root flag now.
 
-`thm{a4f6adb70371a4bceb32988417456c44}`
 
