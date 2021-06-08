@@ -33,7 +33,7 @@ Command: `grep -ioE "(nmap|nikto|dirbuster|sqlmap)" access.log | sort | uniq`
 
 ### Name a path requested by Nmap
 
-Command: `grep -i "nmap" access.log" | more`
+Command: `grep -i "nmap" access.log | more`
 
 `/nmaplowercheck1618912425`
 
