@@ -50,7 +50,7 @@ Using `atena:t4qfzcc4qN##` as creds to ssh logs us in the machine as user atena.
 ---
 ## Root.txt
 
-Running linPEAS on the system to get more info
+Running [linPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) on the system to get more info
 
 LinPEAS reports that `runc` and `ctr` are installed meaning we might have a chance at mounting `/root` dir to container image.
 
