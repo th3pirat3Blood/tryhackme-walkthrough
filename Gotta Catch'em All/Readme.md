@@ -71,7 +71,7 @@ Hmmm.. dead end? Rabbit hole? *Spoiler Alert: It wasn't :)*
 Checking the hint gave it away: `Maybe the website has an answer?`. Let's check the /etc/passwd file for web server's home dir
 
 ```bash
-$grep www /etc/passwd
+$ grep www /etc/passwd
 www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
 ```
 
@@ -85,7 +85,7 @@ Uptill now we had *grass-type.txt* and *water-type.txt* as our flag files... Thi
 Using `find` for checking if such a file exists on the sytem 
 
 ```bash
-$find / -name fire-type.txt -type f 2>/dev/null
+$ find / -name fire-type.txt -type f 2>/dev/null
 /etc/why_am_i_here?/fire-type.txt
 ```
 
