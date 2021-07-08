@@ -103,7 +103,7 @@ Table.jpg: Zip archive data, at least v2.0 to extract
 
 unziping we have two files one of which is again a zip. Extracting all files.. we have got .wav file and .jpg file.
 
-.wav is clearly a (morse code)[https://en.wikipedia.org/wiki/Morse_code]. It can be decoded manually or by using this [site](https://morsecode.world/international/decoder/audio-decoder-adaptive.html).
+.wav is clearly a [morse code](https://en.wikipedia.org/wiki/Morse_code). It can be decoded manually or by using this [site](https://morsecode.world/international/decoder/audio-decoder-adaptive.html).
 
 We got a text after decoding .wav file: `SHOWME`
 
