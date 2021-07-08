@@ -134,8 +134,8 @@ We got ourselves the ftp credentials from the *thankyou.txt* file.
 
 Let's login using these creds to ftp and download the files present there
 
-
-## Task-3
+---
+## Task-4
 
 executing the `program` with no arguments we can see the following:
 
@@ -180,7 +180,7 @@ Just a simple google search reveals the trick behind it. All it needs is a old p
 
 It can be done manually or by using [online decoder](https://www.dcode.fr/multitap-abc-cipher). After decoding we got: `KIDMANSPASSWORDISSOSTRANGE`
 
-
+---
 ## Task-5
 
 ### User.txt
