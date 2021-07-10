@@ -27,7 +27,7 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 ### Manual enumeration
 
-**Found in jasonroom.html source code:**
+Found in jasonroom.html source code:
 
 `<!-- look don't tell jason but we will help you escape , here is some clothes to look like us and a mask to look anonymous and go to the ftp room right there you will find a freind who will help you -->`
 
@@ -73,7 +73,7 @@ elf_object.save("new_binary")
 print("successfull")
 ```
 
-Now executing the binary we got: `You_found_1t`
+Now executing the `new_binary` file we got: `You_found_1t`
 
 *After I was done with the machine and was filling up those answers I came across a question where it asks for the binary passphrase... as I had patched the binary I did not have the passphrase.. Though it was always in sight when it asked to use rabin2 -z*
 
@@ -102,7 +102,7 @@ steghide --extract -sf rize_and_kaneki.jpg -xf yougotme.txt
 
 We got something like a blip/blop - its morse code. Use [online decoder](https://morsecode.world/international/translator.html) to solve it or do it manually. 
 
-After solving we got something that is hex represented data... lets converting it to ascii using python
+After solving we got something that is hex represented data... lets convert it to ascii using python
 
 ```python
 str = "5A4446794D324D334D484A3558324E6C626E526C63673D3D"
