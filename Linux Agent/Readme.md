@@ -43,7 +43,6 @@ Password: 640509040147
 * [Mission-29](#mission-29)
 * [Mission-30](#mission-30)
 * [Viktor's flag](#viktor)
-* [Task-3](#task-3)
 * [Dalia](#dalia)
 * [Silvio](#silvio)
 * [Reza](#reza)
