@@ -72,61 +72,61 @@ Just check the home dir for mission1
 
 `mission2{8a1b68bb11e4a35245061656b5b9fa0d}`
 
-## Misssion-3
+## Mission-3
 
 Just cat out the flag.txt file in mission2's home dir
 
 `mission3{ab1e1ae5cba688340825103f70b0f976}`
 
-## Misssion-4
+## Mission-4
 
 User vim to open the flag.txt file rather than cat
 
 `mission4{264a7eeb920f80b3ee9665fafb7ff92d}`
 
-## Misssion-5
+## Mission-5
 
 This time it's inside a directory
 
 `mission5{bc67906710c3a376bcc7bd25978f62c0}`
 
-## Misssion-6
+## Mission-6
 
 This time it's a hidden file
 
 `mission6{1fa67e1adc244b5c6ea711f0c9675fde}`
 
-## Misssion-7
+## Mission-7
 
 Hidden Directory
 
 `mission7{53fd6b2bad6e85519c7403267225def5}`
 
-## Misssion-8
+## Mission-8
 
 Once switched using `su` just go to /home/mission7 for the flag.txt
 
 `mission8{3bee25ebda7fe7dc0a9d2f481d10577b}`
 
-## Misssion-9
+## Mission-9
 
 It's in / dir 
 
 `mission9{ba1069363d182e1c114bef7521c898f5}`
 
-## Misssion-10
+## Mission-10
 
 Use : `grep mission10 rockyou.txt`
 
 `mission10{0c9d1c7c5683a1a29b05bb67856524b6}`
 
-## Misssion-11
+## Mission-11
 
 Use: `find . -type f` to locate flag.txt file
 
 `mission11{db074d9b68f06246944b991d433180c0}`
 
-## Misssion-12
+## Mission-12
 
 It's hidden inside environment variables. Use `env` to see all the env set
 
@@ -356,7 +356,7 @@ Once reverse shell is acquired just cat flag.txt
 
 **Make sure not to close the rev shell as it is not possible to do su to *dalia* user.**
 
-### Silvios 
+### Silvio
 
 Using `sudo -l` reveals:
 
