@@ -51,8 +51,8 @@ Password: 640509040147
 * [Penelope](penelope)
 * [Maya](maya)
 * [Robert's passphrase](robert)
-* [User.txt](user.txt)
-* [Root.txt](root.txt)
+* [User.txt](usertxt)
+* [Root.txt](roottxt)
 ---
 
 ## Task-3
