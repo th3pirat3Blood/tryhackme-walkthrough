@@ -487,7 +487,9 @@ Checking the contents of */home* dir we can see that *alice* dir has execute per
 ```bash
 For directories, when a directory's sticky bit is set, the filesystem treats the files in such directories in a special way so only the file's owner, the directory's owner, or root user can rename or delete the file. Without the sticky bit set, any user with write and execute permissions for the directory can rename or delete contained files, regardless of the file's owner. Typically this is set on the /tmp directory to prevent ordinary users from deleting or moving other users' files. 
 ```
+
 [Source](https://en.wikipedia.org/wiki/Sticky_bit)
+
 [Reference](https://unix.stackexchange.com/questions/21251/execute-vs-read-bit-how-do-directory-permissions-in-linux-work)
 
 As we can access the files inside */home/alice* directory we can probably see the private ssh key.
